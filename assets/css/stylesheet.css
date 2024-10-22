@@ -121,6 +121,17 @@
 
 
 
+
+
+        .main-content {
+            flex: 0 0 70%;
+            margin-right: 20px;
+        }
+
+
+
+
+
         /* Colored containers for different sections */
         .section {
             margin: 20px 0;
