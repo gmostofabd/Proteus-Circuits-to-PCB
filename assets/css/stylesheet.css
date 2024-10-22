@@ -1,7 +1,7 @@
 
         /* Include your existing CSS styles */
         html, body {
-            font: 11px Tahoma, "Lucida Grande", Verdana, Sans-Serif;
+            font: 13px Tahoma, "Lucida Grande", Verdana, Sans-Serif;
             color: white;
             margin: 0;
             padding: 0;
@@ -13,10 +13,15 @@
 
         #header {
             width: 100%;
-            height: 164px;
+            height: 150px;
             text-align: left;
             margin-bottom: 20px;
-            background-image: url('assets/images/header.jpg'); /* Header Image */
+            /*background-image: url('assets/images/header.jpg');*/  /* Header Image */
+
+            background-image: url('https://github.com/gmostofabd/Proteus-Circuits-to-PCB/blob/7f712b753e3fd3b56dd4707e88cddfbd2934b5ee/assets/images/background.jpg'); /* Header Image */
+
+
+                
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover; /* Optional: Adjust if needed */
