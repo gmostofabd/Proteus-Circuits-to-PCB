@@ -1,15 +1,16 @@
 
         /* Include your existing CSS styles */
-        html, body {
-            font: 13px Tahoma, "Lucida Grande", Verdana, Sans-Serif;
-            color: white;
-            margin: 0;
-            padding: 0;
-            background-color: #2d2d2d;
-            background-image: url('assets/images/background.jpg');
-            background-repeat: repeat-x;
-            background-size: cover; /* Optional: Adjust if needed */
-        }
+html, body {
+    font: 14px Tahoma, "Lucida Grande", Verdana, Sans-Serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d2d;
+    background-image: url('https://github.com/gmostofabd/Proteus-Circuits-to-PCB/raw/7f712b753e3fd3b56dd4707e88cddfbd2934b5ee/assets/images/background.jpg');
+    background-repeat: repeat-x;
+    background-size: cover; /* Optional: Adjust if needed */
+}
+
 
         #header {
             width: 100%;
@@ -126,8 +127,8 @@
         }
 
         .photocontainer {
-            width: 130px;
-            height: 100px;
+            width: 110px;
+            height: 70px;
             margin: 5px 5px 5px 5px;
             background-color: #fff;
             border: 1px solid #000;
@@ -136,7 +137,7 @@
 
         .photo {
             position: relative;
-            width: 100px;
+            width: 90px;
             height: 60px;
             top: 4px;
             left: 4px;
@@ -148,7 +149,7 @@
 
 
         .main-content {
-            flex: 0 0 70%;
+            flex: 0 0 80%;
             margin-right: 10px;
         }
 
@@ -159,7 +160,7 @@
         /* Colored containers for different sections */
         .section {
             margin: 20px 0;
-            padding: 20px;
+            padding: 15px;
             border-radius: 8px;
         }
         .about {
@@ -191,7 +192,7 @@
                 flex: 1 1 100%;
             }
             .latest-news {
-                margin-top: 20px; /* Adds space above on mobile */
+                margin-top: 15px; /* Adds space above on mobile */
             }
         }
 
@@ -253,9 +254,9 @@
 
 #footer {
             width: 100%;
-            margin-top: 20px;
+            margin-top: 10px;
             height: 50px;
-            padding-top: 30px;
+            padding-top: 20px;
             text-align: center;
             font: 10px tahoma, Lucida Grande, Verdana, Sans-Serif;
             clear: both;
