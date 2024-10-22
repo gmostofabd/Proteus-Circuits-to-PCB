@@ -45,39 +45,39 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            padding: 20px;
+            padding: 10px;
             max-width: 1200px; /* Max width for larger screens */
             margin: auto;
         }
 
         #content {
             flex: 1 1 300px; /* Allow for flexible growth/shrink */
-            min-width: 300px; /* Minimum width for content */
-            padding: 20px;
+            min-width: 250px; /* Minimum width for content */
+            padding: 10px;
             background: white;
-            margin: 10px;
+            margin:5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         #left_box {
             margin-top: 5px;
             padding-top: 10px;
-            width: 250px;
-            margin-left: 20px;
+            width: 200px;
+            margin-left: 10px;
             padding-bottom: 10px;
             float: left;
         }
 
         #navigation {
             flex: 1 1 200px; /* Allow for flexible growth/shrink */
-            min-width: 200px; /* Minimum width for navigation */
-            padding: 20px;
+            min-width: 150px; /* Minimum width for navigation */
+            padding: 10px;
             background: white;
             margin: 10px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         #navigation p {
-            padding: 15px 0 0 35px;
+            padding: 10px 0 0 35px;
         }
 
         #navigation ul {
@@ -95,9 +95,9 @@
         }
 
         #right_box {
-            flex: 1 1 300px; /* Allow for flexible growth/shrink */
-            min-width: 300px; /* Minimum width for right box */
-            padding: 20px;
+            flex: 1 1 250px; /* Allow for flexible growth/shrink */
+            min-width: 250px; /* Minimum width for right box */
+            padding: 10px;
             background: white;
             margin: 10px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -123,7 +123,7 @@
         .photocontainer {
             width: 130px;
             height: 100px;
-            margin: 10px 10px 10px 10px;
+            margin: 5px 5px 5px 5px;
             background-color: #fff;
             border: 1px solid #000;
             float: left;
