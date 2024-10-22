@@ -47,15 +47,14 @@ html, body {
             font-weight: bold;
         }
 
-        #container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-            max-width: 1200px; /* Max width for larger screens */
-            margin: auto;
-        }
-
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
         #content {
             flex: 1 1 300px; /* Allow for flexible growth/shrink */
             min-width: 250px; /* Minimum width for content */
